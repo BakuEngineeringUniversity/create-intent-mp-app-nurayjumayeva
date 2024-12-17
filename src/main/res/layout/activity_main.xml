@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Fotoğraf -->
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher_background"
+        android:contentDescription="Profile Photo" />
+
+    <!-- E-posta -->
+    <TextView
+        android:id="@+id/emailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="example@mail.com"
+        android:textSize="16sp"
+        android:textColor="@color/purple_200"
+        android:layout_gravity="center"
+        android:paddingTop="16dp"
+        android:autoLink="email"
+        android:clickable="true" />
+
+    <!-- Telefon Numarası -->
+    <TextView
+        android:id="@+id/phoneText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+90 123 456 7890"
+        android:textSize="16sp"
+        android:textColor="@color/purple_200"
+        android:layout_gravity="center"
+        android:paddingTop="16dp"
+        android:clickable="true" />
+
+    <!-- Müzik Çalar -->
+    <Button
+        android:id="@+id/playMusicButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Music"
+        android:layout_gravity="center"
+        android:paddingTop="16dp" />
+</LinearLayout>
+
